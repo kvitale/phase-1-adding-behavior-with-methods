@@ -1,0 +1,73 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 2,
+    "passes": 1,
+    "pending": 0,
+    "failures": 3,
+    "start": "2022-06-09T23:56:35.607Z",
+    "end": "2022-06-09T23:56:35.872Z",
+    "duration": 265
+  },
+  "tests": [
+    {
+      "title": "has a class of cat",
+      "fullTitle": "cat has a class of cat",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "cat.speak() returns '[name]' says meow!",
+      "fullTitle": "cat cat.speak() returns '[name]' says meow!",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: cat.speak is not a function\n    at Context.<anonymous> (test/indexTest.js:12:16)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "cat.speak is not a function"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "cat.speak() returns '[name]' says meow!",
+      "fullTitle": "cat cat.speak() returns '[name]' says meow!",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: cat.speak is not a function\n    at Context.<anonymous> (test/indexTest.js:12:16)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "cat.speak is not a function"
+      }
+    },
+    {
+      "title": "\"before each\" hook for \"has a class of dog\"",
+      "fullTitle": "dog \"before each\" hook for \"has a class of dog\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: Dog is not defined\n    at Context.<anonymous> (test/indexTest.js:17:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Dog is not defined"
+      }
+    },
+    {
+      "title": "\"before each\" hook for \"has a class of Bird\"",
+      "fullTitle": "bird \"before each\" hook for \"has a class of Bird\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: Bird is not defined\n    at Context.<anonymous> (test/indexTest.js:29:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Bird is not defined"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "has a class of cat",
+      "fullTitle": "cat has a class of cat",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
